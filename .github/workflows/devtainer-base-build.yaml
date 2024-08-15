@@ -4,7 +4,8 @@ on:
   push:
     paths:
       - 'base/**'
-  workflow:
+  workflow_dispatch:
+
 jobs:
   push_to_registry:
     name: push docker image to hub
