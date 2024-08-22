@@ -11,12 +11,14 @@ RUN apk add --update \
     build-base \
     ripgrep \
     fd \
+    unzip \
     neovim \
     zoxide \
     eza \
     bat \
     rsync \
-    tmux
+    tmux \
+    python3 py3-pip
 
 COPY ./config /root/.config
 
