@@ -1,9 +1,6 @@
 name: Build and Push devtainer-base to Docker Hub
 
 on:
-  push:
-    paths:
-      - 'base/**'
   workflow_dispatch:
 
 jobs:
